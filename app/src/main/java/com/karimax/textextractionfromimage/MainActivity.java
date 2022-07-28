@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         mGraphicOverlay = findViewById(R.id.graphic_overlay);
 
         //get bitmap of image from app assets.
-        mSelectedImage =  BitmapFactory.decodeResource(getResources(), R.drawable.handwrt);
+        mSelectedImage =  BitmapFactory.decodeResource(getResources(), R.drawable.page);
         mImageView.setImageBitmap(mSelectedImage);
 
         mFindTextBtn.setOnClickListener(new View.OnClickListener() {
